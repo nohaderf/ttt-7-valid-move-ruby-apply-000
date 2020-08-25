@@ -2,8 +2,9 @@
 
  
     
-def valid_move?
-  position_taken? == false
+def valid_move?(board,index)
+  if index 
+    position_taken? == false
   
 end
 
