@@ -3,7 +3,7 @@
  
     
 def valid_move?(board,index)
-  if index 
+  if index.between
     position_taken? == false
   
 end
@@ -17,5 +17,3 @@ def position_taken?(board,index)
   else
     true
   end
-
-def between?(0)
