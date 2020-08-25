@@ -19,6 +19,6 @@ def position_taken?(board,index)
   end
 end
 
-# Struggled with .between
+# Struggled with .between momentarily, but realized I forgot the '?'
 # Had index.between(0, 8) needs to be a true statement, but the #position_taken? method, if empty, will return false
 # Added a ! infront of the #position_taken? method to make it true
